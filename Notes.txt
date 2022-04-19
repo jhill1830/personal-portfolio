@@ -1,1 +1,3 @@
 Draw up personal design first
+Need to decide on global variables(primary font, fallback fonts, font size\)
+Add assets
