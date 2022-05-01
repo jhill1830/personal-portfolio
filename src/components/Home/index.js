@@ -44,3 +44,8 @@ const Home = () => {
 }
 
 export default Home
+
+//NOTES for my portfolio site. Using this as a template
+
+//language/technology orbiting thing
+    //create div, add elements, translate/tranform elements to make 3d positions(reference cubespinner), create animation for entire div. animate elements with :hover.  Maybe use :hover on div to stop rotation animation.

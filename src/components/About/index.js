@@ -24,9 +24,9 @@ const About = () => {
                         strArray={['A','b','o','u','t', ' ', 'm', 'e']}
                         idx={15} />
                 </h1>
-                <p>stuff</p>
-                <p>about</p>
-                <p>me</p>
+                <p>I'm a self-taught programmer with skills in both front-end and back-end development, looking to gain experience and develop my skills further in professional context.</p>
+                <p>I'm a very curious person who loves to solve problems, constantly improve my skills and learn new things.</p>
+                <p>My interests predominately involve technology, video games, music, and cooking.</p>
             </div>
 
             <div className='stage-cube-cont'>
