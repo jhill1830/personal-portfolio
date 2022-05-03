@@ -9,8 +9,9 @@
 
     .logo {
         display: block;
+        margin-left: 2%;
 
-        img {
+        img { //This is what says slobodan
             display: flex;
             margin: 8px auto;
             width: 50px;
@@ -24,7 +25,6 @@
 
     nav {
         display: flex;
-        text-align: center;
         width: 100%;
         justify-content: space-evenly;
         align-items: center;
@@ -62,9 +62,10 @@
 
             &:after {
                 content: '';
-                font-style: 9px;
+                font-size: 19px;
                 letter-spacing: 2px;
                 position: absolute;
+                transform: translateX(-35%);
                 bottom: 0;
                 display: flex;
                 text-align: center;
@@ -90,37 +91,52 @@
                 content: 'CONTACT';
             }
         }
+        
+        a.skills-link {
+            &:after {
+                content: 'SKILLS';
+            }
+        }
 
         a.active {
             svg {
                 color: #ffd700;
             }
         }
-    }
+    } 
+}
 
+.bottom-links {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    bottom: 0;
+    z-index: 3;
+    
     ul {
         display: flex;
         align-items: center;
-        justify-content: right;
-        width: 100%;
+        justify-content: center;
         padding: 0;
         list-style: none;
         text-align: center;
         margin: 2px;
-
+        border-radius: 10%;
+        background-color: rgba($color: #181818, $alpha: 0.3);
+        
         li {
             a {
                 padding: 7px 0;
                 display: flex;
-                font-size: 15px;
+                font-size: 20px;
                 line-height: 16px;
-                margin: 20px;
-
+                margin: 10px;
+                
                 &:hover svg {
                     color: #ffd700;
                 }
             }
         }
     }
-
 }
