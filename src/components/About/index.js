@@ -54,7 +54,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <Loader type="line-scale" active />
+            <Loader type="line-scale" active/>
         </>
     )
 }

@@ -76,7 +76,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <Loader type='pacman' />
+            <Loader type="line-scale" active/>
         </>
     )
 }
