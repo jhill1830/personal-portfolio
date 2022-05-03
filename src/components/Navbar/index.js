@@ -6,20 +6,20 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser} from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
-const Sidebar = () => (
+const Navbar = () => (
     <div className='nav-bar'>
         <Link className = 'logo' to = '/'>
             <img src = {LogoS} alt = "logo" />
-            <img className="sub-logo" src = {LogoSubtitle} alt = "slobodan" />
+            <img className="sub-logo" src = {LogoSubtitle} alt = "James H" />
         </Link>
         <nav>
-            <NavLink exact="true" aciveclassname="active" to = "/">
+            <NavLink exact="true" aciveclassname="active" className='nav-links' to = "/">
                 <FontAwesomeIcon icon={faHome} color = "#4d4d4e" />
             </NavLink>
-            <NavLink exact="true" aciveclassname="active" className = "about-link" to = "/about">
+            <NavLink exact="true" aciveclassname="active" className = "nav-links about-link" to = "/about">
                 <FontAwesomeIcon icon={faUser} color = "#4d4d4e" />
             </NavLink>
-            <NavLink exact="true" aciveclassname="active" className = "contact-link" to = "/contact">
+            <NavLink exact="true" aciveclassname="active" className = "nav-links contact-link" to = "/contact">
                 <FontAwesomeIcon icon={faEnvelope} color = "#4d4d4e" />
             </NavLink>
         </nav>
@@ -39,4 +39,4 @@ const Sidebar = () => (
     )
 
 
-export default Sidebar
+export default Navbar
