@@ -31,7 +31,7 @@ const Navbar = () => (
         <div className='bottom-links'>
             <ul>
                 <li>
-                    <a target = "_blank" rel="noreferror" href="">
+                    <a target = "_blank" rel="noreferror" href="https://www.linkedin.com/in/hillmanjames/">
                         <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
                     </a>
                 </li>

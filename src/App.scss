@@ -1,8 +1,16 @@
-$primary-color: #ffd700; // font colour. Need to change when decided
-
 @import 'animate.css';
 @import '~loaders.css/src/animations/pacman.scss';
 @import '~loaders.css/src/animations/line-scale.scss';
+
+:root{
+  // colours needed updating
+
+  --primary-color-font: #ffd700; 
+  --primary-color-hover: #ffd700;
+  --primary-color-active: #ffd700;
+  
+  --primary-color-p-text: lightblue;
+}
 
 @font-face {
   font-family: 'Helvetica Neue';
