@@ -5,11 +5,14 @@
 :root{
   // colours needed updating
 
-  --primary-color-font: #ffd700; 
-  --primary-color-hover: #ffd700;
-  --primary-color-active: #ffd700;
+  --primary-colour-font: #ffd700; 
+  --primary-colour-hover: #ffa700;
+  --primary-colour-active: #ffa700;
+
+  --secondary-colour: #181818;
+  --accent-colour: #8d8d8d;
   
-  --primary-color-p-text: lightblue;
+  --primary-colour-p-text: #fff;
 }
 
 @font-face {

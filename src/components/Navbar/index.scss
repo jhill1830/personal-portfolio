@@ -17,7 +17,7 @@
         }
 
         // Small Screens
-        @media only screen and (max-width: 600px){ 
+        @media only screen and (max-width: 600px){
             width: 0;
         }
 
@@ -50,7 +50,7 @@
 
         a {
             font-size: 22px;
-            color: #4d4d4e;
+            color: var(--secondary-colour);
             display: flex;
             line-height: 51px;
             height: 51px;
@@ -62,7 +62,7 @@
             }
 
             &:hover {
-                color: var(--primary-color-hover);
+                color: var(--primary-colour-hover);
                 
                 svg {
                     opacity: 0%;
@@ -113,7 +113,7 @@
 
         a.active {
             svg {
-                color: var(--primary-color-active);
+                color: var(--primary-colour-active);
             }
         }
     } 
@@ -147,7 +147,7 @@
                 margin: 10px;
                 
                 &:hover svg {
-                    color: var(--primary-color-hover);
+                    color: var(--primary-colour-hover);
                 }
             }
         }
