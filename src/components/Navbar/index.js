@@ -15,16 +15,16 @@ const Navbar = () => (
             </Link>
             <nav>
                 <NavLink exact="true" aciveclassname="active" className='nav-links' to = "/">
-                    <FontAwesomeIcon icon={faHome} color = "#4d4d4e" />
+                    <FontAwesomeIcon icon={faHome} color = "var(--nav-colour)" />
                 </NavLink>
                 <NavLink exact="true" aciveclassname="active" className = "nav-links about-link" to = "/about">
-                    <FontAwesomeIcon icon={faUser} color = "#4d4d4e" />
+                    <FontAwesomeIcon icon={faUser} color = "var(--nav-colour)" />
                 </NavLink>
                 <NavLink exact="true" aciveclassname="active" className = "nav-links skills-link" to = "/skills">
-                    <FontAwesomeIcon icon={faGear} color = "#4d4d4e" />
+                    <FontAwesomeIcon icon={faGear} color = "var(--nav-colour)" />
                 </NavLink>
                 <NavLink exact="true" aciveclassname="active" className = "nav-links contact-link" to = "/contact">
-                    <FontAwesomeIcon icon={faEnvelope} color = "#4d4d4e" />
+                    <FontAwesomeIcon icon={faEnvelope} color = "var(--nav-colour)" />
                 </NavLink>
             </nav>
         </div>
@@ -32,12 +32,12 @@ const Navbar = () => (
             <ul>
                 <li>
                     <a target = "_blank" rel="noreferror" href="https://www.linkedin.com/in/hillmanjames/">
-                        <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+                        <FontAwesomeIcon icon={faLinkedin} color="var(--nav-colour)" />
                     </a>
                 </li>
                 <li>
                     <a target = "_blank" rel="noreferror" href="https://github.com/jhill1830/">
-                        <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+                        <FontAwesomeIcon icon={faGithub} color="var(--nav-colour)" />
                     </a>
                 </li>
             </ul>
