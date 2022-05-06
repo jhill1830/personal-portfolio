@@ -5,6 +5,7 @@
 - React
 - Javascript
 - SCSS
+- emailjS
 
 By James Hillman
 
