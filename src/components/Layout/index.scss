@@ -120,7 +120,20 @@
     .about-page,
     .contact-page {
         .text-zone {
-            width: 70%;
+            width: 80%;
+            transition: all 400ms ease;
+        }
+    }
+}
+
+
+// Wide screens:
+//TODO change it so it sits more centered and more proportionally within the screen space
+@media only screen and (min-width: 2000px) {
+    .about-page,
+    .contact-page {
+        .text-zone {
+            width: 80%;
             transition: all 400ms ease;
         }
     }
