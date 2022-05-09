@@ -7,7 +7,6 @@
 .top-tags {
     bottom: auto;
     top: 35px;
-
 }
 
 .tags {
@@ -22,7 +21,9 @@
 
 .bottom-tag-html{
     margin-left: -20px;
-
+}
+.bottom-tags{
+    transform: translateY(-70px);
 }
 
 .container {
@@ -42,7 +43,8 @@
 }
 
 .about-page,
-.contact-page {
+.contact-page,
+.projects-page {
     .text-zone {
         position: absolute;
         left: 10%;
@@ -124,6 +126,9 @@
             transition: all 400ms ease;
         }
     }
+    .bottom-tags{
+        transform: translateY(0px);
+    }
 }
 
 
@@ -137,4 +142,5 @@
             transition: all 400ms ease;
         }
     }
+
 }

@@ -34,12 +34,12 @@
   --default-text: 'Helvetica Neue';
   --main-text: 'Coolvetica';
   --tag-text: 'La Belle Aurore';
-  --header-text: sans-serif;
+  --header-text: monospace;
 }
 
 input,
 textarea {
-  font-family: var(--default-text);
+  font-family: var();
 }
 
 

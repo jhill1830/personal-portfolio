@@ -30,6 +30,6 @@ TODO: Create hamnburger menu for navbar with mobile screens
 TODO: Animate menu between screen size states
 
 TODO: design and add to skills page
-TODO: create, design and add to projects page
+TODO: design and add to projects page
 
 */
