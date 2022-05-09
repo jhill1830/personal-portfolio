@@ -3,7 +3,7 @@ import './index.scss'
 import LogoS from '../../logo.svg'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faGear, faGears, faHome, faUser} from '@fortawesome/free-solid-svg-icons'
+import { faDongSign, faEnvelope, faGear, faHome, faPencilRuler, faUser} from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Navbar = () => (
@@ -22,6 +22,9 @@ const Navbar = () => (
                 </NavLink>
                 <NavLink exact="true" aciveclassname="active" className = "nav-links skills-link" to = "/skills">
                     <FontAwesomeIcon icon={faGear} color = "var(--nav-colour)" />
+                </NavLink>
+                <NavLink exact="true" aciveclassname="active" className = "nav-links projects-link" to = "/projects">
+                    <FontAwesomeIcon icon={faPencilRuler} color = "var(--nav-colour)" />
                 </NavLink>
                 <NavLink exact="true" aciveclassname="active" className = "nav-links contact-link" to = "/contact">
                     <FontAwesomeIcon icon={faEnvelope} color = "var(--nav-colour)" />

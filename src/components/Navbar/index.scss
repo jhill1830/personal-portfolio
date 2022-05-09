@@ -110,6 +110,12 @@
                 content: 'SKILLS';
             }
         }
+        
+        a.projects-link {
+            &:after {
+                content: 'PROJECTS';
+            }
+        }
 
         a.active {
             svg {
@@ -265,6 +271,12 @@
             a.skills-link {
                 &:after {
                     content: 'SKILLS';
+                }
+            }
+
+            a.projects-link {
+                &:after {
+                    content: 'PROJECTS';
                 }
             }
     
