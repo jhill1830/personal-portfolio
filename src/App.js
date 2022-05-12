@@ -40,14 +40,13 @@ TODO: Create hamburger menu for navbar with mobile screens
   - animate the icons down on click
 TODO: Animate menu between screen size states
 TODO: change navbar to small screen one on scroll down
-TODO: have 
 
 
 ? Home
 TODO: Change css for mobiles screens for better font sizes and layout etc
 
 ? About
-TODO: Update the cubespinner thing to something less plagiarising haha. AKA, make something yourself doofus.
+TODO: Update the cubespinner thing to something less plagiarising haha. AKA, make something yourself, doofus.
 TODO: update the layout of elements in mobile/small screen so that the cudespinner is in a better place.
 
 ? New pages
