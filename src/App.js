@@ -26,9 +26,31 @@ function App() {
 export default App;
 
 /* 
-TODO: Create hamnburger menu for navbar with mobile screens
-TODO: Animate menu between screen size states
 
+? Layout
+TODO: Decide colour scheme
+TODO: Change main layout, and main background
+TODO: Create and  update logo
+TODO: Create icons that show up underneath/overlayed on project tiles on hover, that shows the techstack.
+  - Animate them to each slide in from the side. transtition opacity: 0-1, and maybe translateX(-whatever number) 
+
+
+? Navbar
+TODO: Create hamburger menu for navbar with mobile screens
+  - animate the icons down on click
+TODO: Animate menu between screen size states
+TODO: change navbar to small screen one on scroll down
+TODO: have 
+
+
+? Home
+TODO: Change css for mobiles screens for better font sizes and layout etc
+
+? About
+TODO: Update the cubespinner thing to something less plagiarising haha. AKA, make something yourself doofus.
+TODO: update the layout of elements in mobile/small screen so that the cudespinner is in a better place.
+
+? New pages
 TODO: design and add to skills page
 TODO: design and add to projects page
 

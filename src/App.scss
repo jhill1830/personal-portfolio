@@ -19,16 +19,16 @@
 :root{
   // colours needed updating
 
-  --primary-colour-font: #ffd700; 
-  --primary-colour-hover: #ffa700;
-  --primary-colour-active: #ffa700;
+  --primary-colour-font: #C4D6B0; 
+  --primary-colour-hover: #C4D6B0;
+  --primary-colour-active: #F53029;
   --primary-colour-p-text: #fff;
 
-  --secondary-colour: #181818;
-  --accent-colour: #8d8d8d;
-  --nav-colour: #7d7d7e;
+  --secondary-colour: #291F1E;
+  --accent-colour: #477998;
+  --nav-colour: #C4D6B0;
  
-  --background-colour: rgba(70, 4, 4, 0.9);
+  --background-colour: #5E1D23;
 
   // fonts
   --default-text: 'Helvetica Neue';
@@ -39,7 +39,7 @@
 
 input,
 textarea {
-  font-family: var();
+  font-family: var(--default-text);
 }
 
 

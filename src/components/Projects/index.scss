@@ -10,7 +10,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: #353535;
+        background-color: var(--secondary-colour);
+        color: var(--accent-colour);
+        text-decoration: none;
         font-size: 3rem;
         transition: all 300ms;
 
