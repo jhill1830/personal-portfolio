@@ -35,10 +35,12 @@ TODO: Decide colour scheme
 TODO: Change main layout, and main background
 TODO: Create and  update logo
 TODO: Create icons that show up underneath/overlayed on project tiles on hover, that shows the techstack.
-  - Animate them to each slide in from the side. transtition opacity: 0-1, and maybe translateX(-whatever number)
+- Animate them to each slide in from the side. transtition opacity: 0-1, and maybe translateX(-whatever number)
 TODO: Decide fonts
+TODO: Create footer
 
 ? Navbar
+! TODO: have navbar animate and go to side menu when scrolling below the top of the screen. Only hamburger menu in mobile/small screens?
 TODO: Create hamburger menu for navbar with mobile screens !IMPORTANT: without it, the icons get in the way of the project links 
   - animate the icons down on click
 TODO: Animate menu between screen size states
@@ -61,6 +63,7 @@ TODO: link to projects
 - etc
 TODO: add relevant pictures to each linked project
 TODO: Rework grid layout?
+TODO: make it so the rescaling of tiles on hover doesn't cause side scrolling
 
 ? New pages
 TODO: design and add to skills page
