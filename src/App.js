@@ -63,7 +63,7 @@ TODO: link to projects
 - etc
 TODO: add relevant pictures to each linked project
 TODO: Rework grid layout?
-TODO: make it so the rescaling of tiles on hover doesn't cause side scrolling
+TODO: DONE!!! --- make it so the rescaling of tiles on hover doesn't cause side scrolling
 
 ? New pages
 TODO: design and add to skills page

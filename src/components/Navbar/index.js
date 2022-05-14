@@ -11,7 +11,7 @@ const Navbar = () => (
         <div className='nav-bar'>
             <Link className = 'logo' to = '/'>
                 <img src = {LogoS} alt = "logo" />
-                <img className="sub-logo" src = {LogoSubtitle} alt = "James H" />
+                {/*<img className="sub-logo" src = {LogoSubtitle} alt = "James H" />*/}
             </Link>
             <nav>
                 <NavLink exact="true" aciveclassname="active" className='nav-links' to = "/">

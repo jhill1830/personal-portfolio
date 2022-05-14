@@ -4,6 +4,8 @@
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     grid-auto-rows: 300px;
     transition: all 100ms ease;
+    margin-right: 9px;
+    margin-left: 9px;
     
     a {
         height: 100%;
