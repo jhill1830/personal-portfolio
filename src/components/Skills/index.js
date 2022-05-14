@@ -4,7 +4,7 @@ import './index.scss'
 const Skills = () => {
     return (
         <>
-        <Loader type='line-scale' />
+        <Loader type='ball-scale-ripple-multiple' />
         </>
     )
 }

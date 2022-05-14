@@ -27,8 +27,28 @@
         margin: auto;
         width: 100%;
         opacity: 0;
-        transform: rotateZ(30deg);
-        z-index: -1;
+        transform: rotateZ(1deg);
+        z-index: -5;
+        animation: spin 10s linear infinite;
+    }
+}
+
+@keyframes spin {
+    from,
+    to {
+        transform: rotateY(0deg);
+    }
+    25% {
+        transform: rotateY(90deg);
+    }
+    50% {
+        transform: rotateY(180deg);
+    }
+    75% {
+        transform: rotateY(270deg);
+    }
+    100% {
+        transform: rotateY(360deg);
     }
 }
 

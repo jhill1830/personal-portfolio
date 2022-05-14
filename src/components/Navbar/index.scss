@@ -8,7 +8,7 @@
     height: 70px;
     top: 0;
     z-index: 3;
-    transition: all 100ms ease;
+    transition: all 100ms ease-in-out;
 
     .logo {
         display: block;

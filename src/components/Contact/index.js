@@ -76,7 +76,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <Loader type="line-scale" active/>
+            <Loader type="ball-scale-ripple-multiple" active/>
         </>
     )
 }

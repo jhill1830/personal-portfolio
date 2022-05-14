@@ -1,6 +1,9 @@
 @import 'animate.css';
 @import '~loaders.css/src/animations/pacman.scss';
 @import '~loaders.css/src/animations/line-scale.scss';
+@import '~loaders.css/src/animations/ball-clip-rotate-pulse.scss';
+@import '~loaders.css/src/animations/ball-scale-ripple-multiple.scss';
+@import '~loaders.css/src/animations/line-scale-pulse-out-rapid.scss';
 
 @font-face {
   font-family: 'Helvetica Neue';
@@ -19,16 +22,16 @@
 :root{
   // colours needed updating
 
-  --primary-colour-font: #C4D6B0; 
-  --primary-colour-hover: #C4D6B0;
-  --primary-colour-active: #F53029;
-  --primary-colour-p-text: #fff;
+  --primary-colour-font: #FCFFF7; 
+  --primary-colour-hover: #7D8491;
+  --primary-colour-active: #8C001A;
+  --primary-colour-p-text: #FCFFF7;
 
   --secondary-colour: #291F1E;
-  --accent-colour: #477998;
-  --nav-colour: #C4D6B0;
+  --accent-colour: #4795e5;
+  --nav-colour: #7D8491;
  
-  --background-colour: #5E1D23;
+  --background-colour: #660000;
 
   // fonts
   --default-text: 'Helvetica Neue';

@@ -42,7 +42,7 @@ const Home = () => {
                 </div>
                 <Logo />
             </div>
-            <Loader type="line-scale" active/>
+            <Loader type="ball-scale-ripple-multiple" active/>
         </>
     )
 }
