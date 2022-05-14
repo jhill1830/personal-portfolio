@@ -4,21 +4,44 @@
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     grid-auto-rows: 300px;
     
+    a {
+        height: 100%;
+    }
+
+    a:link,
+    a:visited {
+        color: var(--primary-colour-p-text);
+    }
     
     .tile {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: var(--secondary-colour);
-        color: var(--accent-colour);
+        background-color: var(--nav-colour);
         text-decoration: none;
         font-size: 3rem;
         transition: all 300ms;
+        height: 100%;
+        width: 100%;
 
+        .techstack {
+            padding: 3px;
+            border-radius: 5px;
+            background-color: rgba($color: #181818, $alpha: 0.2);
+            display: flex;
+            align-self: flex-start;
+            justify-self: flex-start;
+            opacity: 0;
+        }
+        
         &:hover {
             box-shadow: rgba(34, 39, 49) 0px 0.15em 0.175em, rgba(34, 39, 49) 0px 0.075em 0.2em;
             transform: translateY(-2px) scale(1.02);
+            
+            .techstack {
+                animation: phaseIn 0.8s 0.2s ease forwards;
+            }
         }
     }
 }
@@ -28,4 +51,21 @@ h1 {
     margin-left: 10%;
     color: var(--primary-colour-font);
     font-family: var(--default-text);
+}
+
+@keyframes phaseIn {
+from,
+to {
+    transform: translateX(15px) translateY(100px);
+    opacity: 0;
+    }
+
+60% {
+    transform: translateX(5px) translateY(100px);
+    opacity: 0.9;
+    }
+100% {
+    transform: translateX(8px) translateY(100px);
+    opacity: 1;
+    }
 }

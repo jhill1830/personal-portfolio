@@ -2,6 +2,8 @@ import './index.scss';
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters';
 import { useEffect, useState } from 'react';
+import { faCss3, faGitAlt, faHtml5, faJsSquare, faPython, faReact } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Projects = () => {
 
@@ -24,13 +26,76 @@ const Projects = () => {
                             idx={15} />
                 </h1>
                 <div className='projects-grid'>
-                    <a className='tile' href='#'>1</a>
-                    <a className='tile' href='#'>2</a>
-                    <a className='tile' href='#'>3</a>
-                    <a className='tile' href='#'>4</a>
-                    <a className='tile' href='#'>5</a>
-                    <a className='tile' href='#'>6</a>
-                    <a className='tile' href='#'>7</a>
+                    <a className='tile' href='#'>1
+                        <div className='techstack'>
+                            <FontAwesomeIcon icon={faPython} color="#4B8BBE" />
+                            <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+                            <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+                            <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+                            <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+                            <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+                        </div>
+                    </a>
+                    <a className='tile' href='#'>2
+                        <div className='techstack'>
+                            <FontAwesomeIcon icon={faPython} color="#4B8BBE" />
+                            <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+                            <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+                            <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+                            <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+                            <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+                        </div>
+                    </a>
+                    <a className='tile' href='#'>3
+                    <div className='techstack'>
+                            <FontAwesomeIcon icon={faPython} color="#4B8BBE" />
+                            <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+                            <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+                            <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+                            <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+                            <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+                        </div>
+                    </a>
+                    <a className='tile' href='#'>4
+                    <div className='techstack'>
+                            <FontAwesomeIcon icon={faPython} color="#4B8BBE" />
+                            <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+                            <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+                            <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+                            <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+                            <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+                        </div>
+                    </a>
+                    <a className='tile' href='#'>5
+                    <div className='techstack'>
+                            <FontAwesomeIcon icon={faPython} color="#4B8BBE" />
+                            <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+                            <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+                            <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+                            <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+                            <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+                        </div>
+                    </a>
+                    <a className='tile' href='#'>6
+                    <div className='techstack'>
+                            <FontAwesomeIcon icon={faPython} color="#4B8BBE" />
+                            <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+                            <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+                            <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+                            <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+                            <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+                        </div>
+                    </a>
+                    <a className='tile' href='#'>7
+                    <div className='techstack'>
+                            <FontAwesomeIcon icon={faPython} color="#4B8BBE" />
+                            <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+                            <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+                            <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+                            <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+                            <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+                        </div>
+                    </a>
                     
                 </div>
             </div>

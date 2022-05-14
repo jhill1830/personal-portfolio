@@ -27,20 +27,22 @@ export default App;
 
 /* 
 
+? Readme
+TODO: update the readme
+
 ? Layout
 TODO: Decide colour scheme
 TODO: Change main layout, and main background
 TODO: Create and  update logo
 TODO: Create icons that show up underneath/overlayed on project tiles on hover, that shows the techstack.
-  - Animate them to each slide in from the side. transtition opacity: 0-1, and maybe translateX(-whatever number) 
-
+  - Animate them to each slide in from the side. transtition opacity: 0-1, and maybe translateX(-whatever number)
+TODO: Decide fonts
 
 ? Navbar
-TODO: Create hamburger menu for navbar with mobile screens
+TODO: Create hamburger menu for navbar with mobile screens !IMPORTANT: without it, the icons get in the way of the project links 
   - animate the icons down on click
 TODO: Animate menu between screen size states
 TODO: change navbar to small screen one on scroll down
-
 
 ? Home
 TODO: Change css for mobiles screens for better font sizes and layout etc
@@ -49,8 +51,18 @@ TODO: Change css for mobiles screens for better font sizes and layout etc
 TODO: Update the cubespinner thing to something less plagiarising haha. AKA, make something yourself, doofus.
 TODO: update the layout of elements in mobile/small screen so that the cudespinner is in a better place.
 
+? Projects
+TODO: design and add to projects page
+TODO: link to projects
+- book app thing(github)
+- mise-en-place?
+- password cracker(github/replit)
+- any web dev stuff
+- etc
+TODO: add relevant pictures to each linked project
+TODO: Rework grid layout?
+
 ? New pages
 TODO: design and add to skills page
-TODO: design and add to projects page
 
 */

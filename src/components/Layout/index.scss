@@ -2,6 +2,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
+    min-width: 300px;
 }
 
 .top-tags {
@@ -138,8 +139,6 @@
         will-change: contents;
         height: 90%;
         min-height: 566px;
-        display: flex;
-        justify-content: center;
         opacity: 0;
         top: 5%;
         z-index: 1;
