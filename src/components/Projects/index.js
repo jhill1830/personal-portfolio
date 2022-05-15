@@ -1,7 +1,6 @@
 import './index.scss';
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters';
-import BookIMG from '../../assets/images/book.jpg';
 import { useEffect, useState } from 'react';
 import { faCss3, faGitAlt, faHtml5, faJsSquare, faPython, faReact } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
