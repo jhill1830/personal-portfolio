@@ -60,6 +60,7 @@ TODO: link to projects
 - mise-en-place?
 - password cracker(github/replit)
 - any web dev stuff
+- CC stuff(lua)
 - etc
 TODO: add relevant pictures to each linked project
 TODO: Rework grid layout?
