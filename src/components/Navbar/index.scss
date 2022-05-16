@@ -2,6 +2,7 @@
 
 .nav-bar {
     background: var(--secondary-colour);
+    position: fixed;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -161,11 +162,136 @@
     }
 }
 
+
+html:not([data-scroll='0']) .nav-bar {
+    background-color: rgba($color: white, $alpha: 0);
+    position: fixed;
+    display: flex;
+    float: right;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 130px;
+    top: 0;
+    right: 0;
+    z-index: 3;
+    transition: all 200ms ease;
+    
+    .logo {
+        background: var(--secondary-colour);
+        padding: 5px;
+        border-radius: 20%;
+        border: var(--accent-colour);
+        border-width: 2px;
+        display: block;
+        margin-top: 20px;
+        width: 60px;
+
+        img { //This is what says slobodan underneath the logo
+            display: flex;
+            margin: 8px auto;
+            width: 50px;
+            height: auto;
+
+            &.sub-logo {
+                width: 50px;
+            }
+        }
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        
+        .nav-links {
+            justify-items: center;
+            align-items: center;
+            
+        }
+
+        a {
+            font-size: 22px;
+            color: var(--secondary-colour);
+            display: flex;
+            line-height: 51px;
+            height: 51px;
+            position: relative;
+            text-decoration: none;
+
+            i {
+                transition: all 0.3s ease-out;
+            }
+
+            &:hover {
+                color: var(--primary-colour-hover);
+                
+                svg {
+                    opacity: 0%;
+                }
+
+                &::after {
+                    opacity: 1;
+                }
+            }
+
+            &:after {
+                content: '';
+                font-size: 19px;
+                letter-spacing: 2px;
+                position: absolute;
+                transform: translateX(-35%);
+                bottom: 0;
+                display: flex;
+                text-align: center;
+                opacity: 0;
+                transition: all 0.3s;
+            }
+            
+            &:first-child {
+                &::after {
+                    content: 'HOME';
+                }
+            }
+        }
+
+        a.about-link {
+            &:after {
+                content: 'ABOUT';
+            }
+        }
+
+        a.contact-link {
+            &:after {
+                content: 'CONTACT';
+            }
+        }
+        
+        a.skills-link {
+            &:after {
+                content: 'SKILLS';
+            }
+        }
+
+        a.projects-link {
+            &:after {
+                content: 'PROJECTS';
+            }
+        }
+
+        a.active {
+            svg {
+                color: var(--primary-colour-active);
+            }
+        }
+    } 
+}
         // Small Screens
 @media only screen and (max-width: 600px){
     .nav-bar {
         background-color: rgba($color: white, $alpha: 0);
-        position: absolute;
+        position: fixed;
         display: flex;
         float: right;
         flex-direction: column;

@@ -5,8 +5,19 @@ import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faGear, faHome, faPencilRuler, faUser} from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { useEffect, useState } from 'react'
 
-const Navbar = () => (
+
+
+const Navbar = () => {
+
+    useEffect(() => {
+        document.addEventListener('scroll', () => {
+            document.documentElement.dataset.scroll = window.scrollY;
+        });
+    }, []);
+    
+    return (
     <>
         <div className='nav-bar'>
             <Link className = 'logo' to = '/'>
@@ -47,6 +58,6 @@ const Navbar = () => (
         </div>
     </>
     )
-
+}
 
 export default Navbar
