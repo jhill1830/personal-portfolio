@@ -40,11 +40,14 @@ TODO: Decide fonts
 TODO: Create footer
 
 ? Navbar
-! TODO: have navbar animate and go to side menu when scrolling below the top of the screen. Only hamburger menu in mobile/small screens?
 TODO: Create hamburger menu for navbar with mobile screens !IMPORTANT: without it, the icons get in the way of the project links 
-  - animate the icons down on click
+- animate the icons down on click
 TODO: Animate menu between screen size states
-TODO: change navbar to small screen one on scroll down
+TODO: change navbar to small screen one on scroll down. Only hamburger menu in mobile/small screens?
+TODO: Change animation/transition of navbar when scrolling back to top of screen and changing to horizontal menu 
+
+
+DONE --- !!!  TODO: have navbar animate and go to side menu when scrolling below the top of the screen. 
 
 ? Home
 TODO: Change css for mobiles screens for better font sizes and layout etc
@@ -64,7 +67,9 @@ TODO: link to projects
 - etc
 TODO: add relevant pictures to each linked project
 TODO: Rework grid layout?
-TODO: DONE!!! --- make it so the rescaling of tiles on hover doesn't cause side scrolling
+
+
+DONE --- !!!  TODO: make it so the rescaling of tiles on hover doesn't cause side scrolling
 
 ? New pages
 TODO: design and add to skills page
