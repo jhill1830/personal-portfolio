@@ -32,10 +32,8 @@ TODO: update the readme
 
 ? Layout
 TODO: Decide colour scheme
-TODO: Change main layout, and main background
+TODO: Change main layout, and main background design
 TODO: Create and  update logo
-TODO: Create icons that show up underneath/overlayed on project tiles on hover, that shows the techstack.
-- Animate them to each slide in from the side. transtition opacity: 0-1, and maybe translateX(-whatever number)
 TODO: Decide fonts
 TODO: Create footer
 
@@ -67,6 +65,9 @@ TODO: link to projects
 - etc
 TODO: add relevant pictures to each linked project
 TODO: Rework grid layout?
+TODO: Create icons that show up underneath/overlayed on project tiles on hover, that shows the techstack.
+- Animate them to each slide in from the side. transtition opacity: 0-1, and maybe translateX(-whatever number)
+TODO: redo the icons techstack animation so it animates each icon after the other???
 
 
 DONE --- !!!  TODO: make it so the rescaling of tiles on hover doesn't cause side scrolling
