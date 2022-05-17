@@ -29,6 +29,7 @@ const Projects = () => {
                     <a className='tile project-bookkeeper' href='https://github.com/jhill1830/BookKeeper' target="_blank">BookKeeper
                         <div className='techstack'>
                             <FontAwesomeIcon icon={faPython} color="#4B8BBE" />
+                            <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
                         </div>
                     </a>
                     <a className='tile project-password' href='https://replit.com/@trjpsyt/boilerplate-SHA-1-password-cracker#password_cracker.py' target="_blank">Password Cracker
