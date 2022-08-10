@@ -4,6 +4,8 @@ import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import emailjs from '@emailjs/browser'
 
+// ! FIX: navbar overlaps the header
+
 const Contact = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate')
